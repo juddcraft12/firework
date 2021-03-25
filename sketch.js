@@ -38,7 +38,7 @@ function setup() {
   mic = new p5.AudioIn();
   mic.start();
 
-  audioEl = createAudio('../../music/Broke_For_Free_-_01_-_As_Colorful_As_Ever.mp3');
+  audioEl = createAudio('KARAOKE_GHST_PRJKT_Full_Demo_Hi_Res.mp3');
   currentInput = mic;
 
   // initialize the FFT, plug in our variables for smoothing and binCount
